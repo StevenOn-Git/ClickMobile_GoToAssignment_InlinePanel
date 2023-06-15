@@ -14,7 +14,10 @@ namespace Client.Buttons
 
         public Element InitInlineWidget(IW6CMControllerServices objControllerServices, W6CMObject item, int displayMode, string filterName)
         {
+            // assign controller services object from the controller that's getting passed into the inline widget when click task collection is launched in CM.
             ControllerServices = objControllerServices;
+            
+            #region html for task collection inline button
             const string DivClass = "W6CMPanel W6CMPropPanelButton";
             const string TableStyle = "width: 100%;";
             const string TableDataWidth = "100%";
@@ -27,7 +30,8 @@ namespace Client.Buttons
             
             const string HTML = "<div><div class='{0}'><table style='{1}'><tbody><tr><td width='{2}' style='{3}'><div objname='ButtonPanel'><button id={4} onClick={5} objname='ButtonControl' class='{6}' style='{7}'>{8}</button></div></td></tr></tbody></table></div></div>";
             string htmlContent = String.Format(HTML, DivClass, TableStyle, TableDataWidth, TableDataStyle, ButtonID, OnClick, ButtonClass, ButtonStyle, ButtonText);
-
+            #endregion
+            
             jQueryObject e = jQuery.FromHtml(htmlContent);
             
             return e.GetElement(0);
