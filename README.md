@@ -1,6 +1,6 @@
 # ClickMobile Go To Assignment Inline Panel
 Custom ClickSoftware FSE, Click Mobile Development. 
-<p>The purpose of this code is to utilize both the schedule object and the task collection to allow mobile users to utilize search filtering of jobs from the task collection and then update the schedule object.</p> 
+<p>The purpose of this code is to utilize both the schedule object and the task collection object therefore allowing mobile users to utilize search filtering of jobs from the task collection and updates to the schedule object.</p> 
 
 <img src="https://github.com/StevenOn-Git/ClickMobile_GoToAssignment_InlinePanel/blob/main/CM_Inline_buton_screenshot.png?raw=true">
 
