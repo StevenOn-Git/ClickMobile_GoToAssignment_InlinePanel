@@ -9,8 +9,5 @@ Custom ClickSoftware FSE, Click Mobile Development.
 <ol>
 <li>Visual Studio 2015</li>
 <li><a href="https://github.com/nikhilk/scriptsharp">ScriptSharp</a></li>
-<li><a href="https://wiki.cloud.clicksoftware.com/fsedoc/en/development/developing-with-the-service-edge-apis/developing-clickmobile-touch-add-ins/developing-specific-clickmobile-touch-add-in-types/developing-a-mobile-event-add-in">ClickSoftware Developing a Mobile Event Add-In</a></li>
+<li><a href="https://wiki.cloud.clicksoftware.com/fsedoc/en/development/developing-with-the-service-edge-apis/developing-clickmobile-touch-add-ins/developing-specific-clickmobile-touch-add-in-types/developing-a-mobile-inline-panel-add-in">ClickSoftware Developing a Mobile Event Add-In</a></li>
 </ol>
-
-<h3>Problem:</h3>
-<p></p>
