@@ -2,6 +2,8 @@
 Custom ClickSoftware FSE, Click Mobile Development. 
 <p>The purpose of this code is to utilize both the schedule object and the task collection to allow mobile users to utilize search filtering of jobs from the task collection and then update the schedule object.</p> 
 
+<img src="https://github.com/StevenOn-Git/ClickMobile_GoToAssignment_InlinePanel/blob/main/CM_Inline_buton_screenshot.png?raw=true">
+
 <h3>Reference</h3>
 <a href="https://community.clicksoftware.com/s/article/How-to-create-widget-for-inline-panel">How to create widget for inline panel</a>
 
